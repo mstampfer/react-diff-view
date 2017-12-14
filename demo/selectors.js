@@ -11,7 +11,7 @@ export const createFilenameSelector = () => createSelector(
 
 export const createCanExpandSelector = computeFilename => createSelector(
     computeFilename,
-    filename => filename === 'src/addons/link/ReactLink.js'
+    filename => filename === 'src/renderers/dom/shared/CSSPropertyOperations.js'
 );
 
 export const createCustomClassNamesSelector = computeFilename => createSelector(
