@@ -1,3 +1,4 @@
+import React from 'react';
 import classNames from 'classnames';
 import {getChangeKey, computeOldLineNumber, computeNewLineNumber} from '../../utils';
 import SplitChange from './SplitChange';

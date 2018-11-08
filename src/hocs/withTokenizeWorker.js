@@ -1,4 +1,5 @@
 import {Component} from 'react';
+import * as React from 'react';
 import {wrapDisplayName} from 'recompose';
 import shallowEquals from 'shallow-equal/objects';
 import arrayShallowEquals from 'shallow-equal/arrays';

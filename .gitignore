@@ -63,3 +63,4 @@ typings/
 /cjs
 /style
 /dist
+*.swp
