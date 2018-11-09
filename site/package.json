@@ -32,6 +32,7 @@
     "babel-plugin-import": "^1.9.1",
     "babel-plugin-lodash": "^3.3.4",
     "babel-plugin-react-require": "^3.0.1",
+    "classnames": "^2.2.6",
     "console-log-level": "^1.4.0",
     "copy-webpack-plugin": "^4.5.3",
     "css-loader": "^1.0.0",
@@ -82,7 +83,9 @@
     "webpack-dev-server": "^3.1.9",
     "worker-loader": "^2.0.0"
   },
-  "dependencies": {},
+  "dependencies": {
+    "react-diff-view": "git+https://github.com/otakustay/react-diff-view.git"
+  },
   "browserslist": [
     ">0.2%",
     "not dead",

@@ -48,15 +48,15 @@ const webpackAdditional = () => config => {
             }]
         }
     );
-    config.resolve =
-        {
-            'extensions': ['.js'],
-            'mainFiles': ['index'],
-            'modules': ['node_modules'],
-            'alias': {
-                'react-diff-view': path.resolve(__dirname, '..', 'src')
-            }
-        };
+    // config.resolve =
+    //     {
+    //         'extensions': ['.js'],
+    //         'mainFiles': ['index'],
+    //         'modules': ['node_modules'],
+    //         'alias': {
+    //             'react-diff-view': path.resolve(__dirname, '..', 'src')
+    //         }
+    //     };
     config.devServer = {
         'port': 9031,
         'open': true,
