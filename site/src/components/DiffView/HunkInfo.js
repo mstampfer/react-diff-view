@@ -1,6 +1,5 @@
 import {React} from 'react';
-// import {Decoration} from 'react-diff-view';
-import Decoration from '../../../../src/Decoration'
+import Decoration from 'react-diff-view/src/Decoration/index.js';
 const HunkInfo = ({hunk, ...props}) => (
     <Decoration {...props}>
         {null}

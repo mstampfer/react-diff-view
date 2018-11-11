@@ -1,14 +1,14 @@
 import {PureComponent} from 'react';
 import * as React from 'react';
-import {uniqueId} from 'lodash';
+import {uniqueId} from 'lodash';;
 import sha from 'sha1';
 import {bind} from 'lodash-decorators';
 import {Whether} from 'react-whether';
 import {createSelector} from 'reselect';
-import {parseDiff} from 'react-diff-view';
-import {establishConfiguration} from '../../regions';
-import {DiffView, Configuration} from '../../containers';
-import InputArea from '../InputArea';
+import {parseDiff} from 'react-diff-view/utils/parse.js';
+import {establishConfiguration} from '../../regions/index.js';
+import {DiffView, Configuration} from '../../containers/index.js';
+import InputArea from '../InputArea/index.js';
 import styles from './index.css';
 
 const fakeIndex = () => sha(uniqueId()).slice(0, 9);

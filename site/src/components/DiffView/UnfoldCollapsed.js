@@ -1,6 +1,6 @@
 import {React, Fragment} from 'react';
 import {Whether} from 'react-whether';
-import {getCollapsedLinesCountBetween} from 'react-diff-view';
+import {getCollapsedLinesCountBetween} from 'react-diff-view/src/index.js';
 import Unfold from './Unfold';
 
 const UnfoldCollapsed = ({previousHunk, currentHunk, linesCount, onExpand}) => {

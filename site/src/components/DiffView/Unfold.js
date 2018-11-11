@@ -1,8 +1,7 @@
 import {React, PureComponent} from 'react';
 import {Icon} from 'antd';
 import {bind} from 'lodash-decorators';
-// import {Decoration} from 'react-diff-view';
-import Decoration from '../../../../src/Decoration'
+import Decoration from 'react-diff-view/src/Decoration/index.js';
 import styles from './Unfold.css';
 
 const ICON_TYPE_MAPPING = {

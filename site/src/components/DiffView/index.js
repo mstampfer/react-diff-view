@@ -1,18 +1,11 @@
 import * as React from 'react';
-// import {
-//     Diff,
-//     Hunk,
-//     withSourceExpansion,
-//     minCollapsedLines,
-//     withChangeSelect,
-//     withTokenizeWorker
-// } from 'react-diff-view';
-import Diff from '../../../../src/Diff'
-import Hunk from '../../../../src/Hunk'
-import {withSourceExpansion} from '../../../../src/hocs'
-import {minCollapsedLines} from '../../../../src/hocs'
-import {withChangeSelect} from '../../../../src/hocs'
-import {withTokenizeWorker} from '../../../../src/hocs'
+import Diff from 'react-diff-view/src/Diff/index.js';
+import Hunk from 'react-diff-view/src/Hunk/index.js';
+import withSourceExpansion from 'react-diff-view/src/hocs/withSourceExpansion.js';
+import minCollapsedLines from 'react-diff-view/src/hocs/minCollapsedLines.js';
+import withChangeSelect from 'react-diff-view/src/hocs/withChangeSelect.js';
+import withTokenizeWorker from 'react-diff-view/src/hocs/withTokenizeWorker.js';
+
 import {compose as Compose} from 'recompose';
 import 'prism-themes/themes/prism-vs.css';
 import HunkInfo from './HunkInfo';

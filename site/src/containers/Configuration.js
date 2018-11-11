@@ -1,5 +1,5 @@
-import Configuration from '../components/Configuration';
-import {joinConfiguration} from '../regions';
+import Configuration from '../components/Configuration/index.js';
+import {joinConfiguration} from '../regions/index.js';
 
 const mapToProps = ({update, ...configuration}) => {
     return {
